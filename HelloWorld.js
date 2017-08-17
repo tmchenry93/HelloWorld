@@ -137,7 +137,7 @@
          $("#place").autocomplete({
              source: function(request, response) {
                  $.ajax({
-                     url: "http://gd.geobytes.com/AutoCompleteCity",
+                     url: "https://gd.geobytes.com/AutoCompleteCity",
                      dataType: "jsonp",
                      data: {
                          q: request.term
@@ -187,7 +187,7 @@
          $("#entryPlace").autocomplete({
              source: function(request, response) {
                  $.ajax({
-                     url: "http://gd.geobytes.com/AutoCompleteCity",
+                     url: "https://gd.geobytes.com/AutoCompleteCity",
                      dataType: "jsonp",
                      data: {
                          q: request.term
