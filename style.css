@@ -1,15 +1,9 @@
 body {
-  background-image: url("images/_linedpaper copy.png");
+  background-image: url("./images/linedpaper.png");
   background-size: 20%;
-  /*background-origin: 800px;*/
   height: 100vh;
 }
 
-/*.container {
-  height: 100vh;
-}*/
-
-/* =24px */
 .container__item {
   margin: 0 auto 40px;
 }
